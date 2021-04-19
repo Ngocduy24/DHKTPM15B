@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+#container{
+    width: 960px;
+    margin: auto;
+}
+#header{
+    height: 100px;
+    background-color: aqua;
+}
+#nav{
+    height: unset;
+    width: 300px;
+    box-sizing:border-box;
+    text-align:initial left ;
+    float: left;
+    background-color: darkgoldenrod;
+}
+#section{
+    width: 660px;
+    box-sizing: border-box;
+    text-align: left;
+    float: right;
+    background-color: chartreuse;
+}
+#article{
+    text-align: left;
+    box-sizing: border-box;
+    background-color: hotpink;
+}
+#footer{
+    height: 70px;
+    background-color: brown;
+    clear: both;
+}
